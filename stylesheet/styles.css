@@ -1,0 +1,227 @@
+body{
+	background-color: green
+}
+#Header{
+     color: White;
+	 text-align: center;
+	 font-size: 50px;
+}
+#logo{
+	width: 80px;
+	height: 100px;
+	position: absolute;
+}
+#side{
+	width: 200px;
+	height: 1200px;
+	position: absolute;
+	margin-top: 10%;
+}
+#deal1{
+	width: 350px;
+	height: 350px;
+	position: absolute;
+	margin-left: 25%;
+	margin-top: 15%;
+}
+.deal1{
+	font-size: 16px;
+	color: white;
+	margin-top: 27%;
+	margin-left: 27%;
+	position: absolute;
+}
+#deal2{
+	width: 400px;
+	height: 300px;
+	position: absolute;
+	margin-left: 50%;
+	margin-top: 18%;
+}
+.deal2{
+	font-size: 16px;
+	color: white;
+	margin-top: 27%;
+	margin-left: 53%;
+	position: absolute;
+}
+#deal3{
+	width: 350px;
+	height: 350px;
+	position: absolute;
+	margin-left: 25%;
+	margin-top: 40%;
+}
+.deal3{
+	font-size: 16px;
+	color: white;
+	margin-top: 51%;
+	margin-left: 25%;
+	position: absolute;
+}
+#deal4{
+	Width: 350px;
+	height: 350px;
+	position: absolute;
+	margin-left: 50%;
+	margin-top: 40%;
+}
+.deal4{
+	font-size: 16px;
+	color: white;
+	margin-top: 51%;
+	margin-left: 50%;
+	position: absolute;
+}
+#game1{
+	Width: 150px;
+	height: 250px;
+	position: absolute;
+	margin-left: 25%;
+	margin-top: 15%;
+}
+.game1{
+	font-size: 16px;
+	color: white;
+	margin-left: 35%;
+	margin-top: 15%;
+	position: absolute;
+}
+#game2{
+	width: 150px;
+	height: 250px;
+	position: absolute;
+	margin-left: 25%;
+	margin-top: 30%;
+}
+.game2{
+	font-size: 16px;
+	color: white;
+	margin-left: 35%;
+	margin-top: 30%;
+	position: absolute;
+}
+#game3{
+	width: 150px;
+	height: 250px;
+	position: absolute;
+	margin-left: 25%;
+	margin-top: 45%;
+}
+.game3{
+	font-size: 16px;
+	color: white;
+	margin-left: 35%;
+	margin-top: 45%;
+	position: absolute;
+}
+#console1{
+	width: 300px;
+	height: 250px;
+	position: absolute;
+	margin-left: 24%;
+	margin-top: 15%;
+}
+.console1{
+	font-size: 16px;
+	color: white;
+	margin-left: 40%;
+	margin-top: 10%;
+	position: absolute;
+}
+#console2{
+	width: 350px;
+	height: 200px;
+	position: absolute;
+	margin-left: 22%;
+	margin-top: 30%;
+}
+.console2{
+	font-size: 16px;
+	color: white;
+	margin-left: 40%;
+	margin-top: 25%;
+	position: absolute;
+}
+#console3{
+	width: 280px;
+	height: 230px;
+	position: absolute;
+	margin-left: 24%;
+	margin-top: 45%;
+}
+.console3{
+	font-size: 16px;
+	color: white;
+	position: absolute;
+	margin-left: 40%;
+	margin-top: 40%;
+}
+#controllers{
+	display: grid;
+	position: absolute;
+	top: 30%;
+	left: 23%;
+	grid-row-gap: 10px; 
+}
+.controller-text{
+	display: grid;
+	font-size: 16px;
+	color: white;
+	position: absolute;
+	top: 30%;
+	left: 40%;
+	grid-row-gap: 100px;
+}
+#controllers img{
+	width: 300px;
+	height: 200px;
+}
+.game-text{
+	display: grid;
+	font-size: 16px;
+	color: white;
+	position: absolute;
+	top: 35%;
+	left: 35%;
+	grid-row-gap: 200px;
+}
+.contact-text{
+	border-style: solid;
+	border-width: 5px;
+	position: absolute;
+	width: 700px;
+	height: 150px;
+	left: 27%;
+	top: 40%;
+}
+footer{
+	display: inline;
+	position: absolute;
+	top: 150%;
+	left: 40%;
+	float: left;
+}
+footer img{
+	width: 100px;
+	height: 100px;
+	margin-left: 40px;
+}
+#Navigation{
+	background-color: #00ff00;
+	text-align: center;
+	width: 45%;
+	height: 50px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#Navigation a{
+	color: white;
+	font-size: 30px;
+	text-decoration: none;
+	padding: 30px;
+}
+#Navigation a:hover{
+	text-decoration: underline;
+}
+
