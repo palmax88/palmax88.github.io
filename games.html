@@ -40,8 +40,24 @@
 			<br> £39.99
 		</p>
 	</div>
-	<button type="button" id="button1">
-	<button type="button" id="button2">
-	<button type="button" id="button3">
+	<button onclick="changeP('Which game would you like to buy? (PUBG/Skyrim/Assassins)', 1)" type="button" id="button1">Buy</button>
+	<button onclick="changeP('Which game would you like to buy? (PUBG/Skyrim/Assassins)', 1)" type="button" id="button2">Buy</button>
+	<button onclick="changeP('Which game would you like to buy? (PUBG/Skyrim/Assassins)', 1)" type="button" id="button3">Buy</button>
+		<script>
+				var product1 = "PUBG"
+				var product2 = "Skyrim"
+				var product3 = "Assassins"
+				function changeP(question, productid) {
+					var product = prompt(question)
+					if(product == product1){
+					document.getElementById("button1").innerHTML ="Game is sent for delivery"}
+					if(product == product2){
+					document.getElementById("button2").innerHTML ="Game is sent for delivery"}
+					if(product == product3){
+					document.getElementById("button3").innerHTML ="Game is sent for delivery"}
+					else
+					{document.getElementById("button1").innerHTML = "Welcome " + person}
+				}
+		</script>
 	</body>
 </html>	
