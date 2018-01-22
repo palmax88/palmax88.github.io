@@ -18,145 +18,104 @@ body{
 	position: absolute;
 	margin-top: 10%;
 }
-#deal1{
-	width: 350px;
-	height: 350px;
+#deal12{
+	display: inline-block;
 	position: absolute;
-	margin-left: 25%;
-	margin-top: 15%;
+	top: 45%;
+	left: 37%;
 }
-.deal1{
-	font-size: 16px;
-	color: white;
-	margin-top: 27%;
-	margin-left: 27%;
+#deal34{
+	display: inline;
 	position: absolute;
+	top: 95%;
+	left: 37%;
 }
-#deal2{
-	width: 400px;
-	height: 300px;
-	position: absolute;
-	margin-left: 50%;
-	margin-top: 18%;
-}
-.deal2{
-	font-size: 16px;
-	color: white;
-	margin-top: 27%;
-	margin-left: 53%;
-	position: absolute;
-}
-#deal3{
-	width: 350px;
-	height: 350px;
-	position: absolute;
-	margin-left: 25%;
-	margin-top: 40%;
-}
-.deal3{
-	font-size: 16px;
-	color: white;
-	margin-top: 51%;
-	margin-left: 25%;
-	position: absolute;
-}
-#deal4{
-	Width: 350px;
-	height: 350px;
-	position: absolute;
-	margin-left: 50%;
-	margin-top: 40%;
-}
-.deal4{
-	font-size: 16px;
-	color: white;
-	margin-top: 51%;
-	margin-left: 50%;
-	position: absolute;
-}
-#game1{
-	Width: 150px;
-	height: 250px;
-	position: absolute;
-	margin-left: 25%;
-	margin-top: 15%;
-}
-.game1{
-	font-size: 16px;
-	color: white;
-	margin-left: 35%;
-	margin-top: 15%;
-	position: absolute;
-}
-#game2{
-	width: 150px;
-	height: 250px;
-	position: absolute;
-	margin-left: 25%;
-	margin-top: 30%;
-}
-.game2{
-	font-size: 16px;
-	color: white;
-	margin-left: 35%;
-	margin-top: 30%;
-	position: absolute;
-}
-#game3{
-	width: 150px;
-	height: 250px;
-	position: absolute;
-	margin-left: 25%;
-	margin-top: 45%;
-}
-.game3{
-	font-size: 16px;
-	color: white;
-	margin-left: 35%;
-	margin-top: 45%;
-	position: absolute;
-}
-#console1{
+#deal12 img{
 	width: 300px;
-	height: 250px;
-	position: absolute;
-	margin-left: 24%;
-	margin-top: 15%;
+	height: 300px;
 }
-.console1{
-	font-size: 16px;
+#deal34 img{
+	width: 300px;
+	height: 300px;
+}
+.indext1{
+	position: absolute;
+	font-size: 1em;
 	color: white;
-	margin-left: 40%;
-	margin-top: 10%;
-	position: absolute;
+	left: 35%;
+	top: 135%;
 }
-#console2{
-	width: 350px;
+.indext2{
+	position: absolute;
+	font-size: 1em;
+	color: white;
+	left: 60%;
+	top: 80%;
+}
+.indext3{
+	position: absolute;
+	font-size: 1em;
+	color: white;
+	left: 35%;
+	top: 80%;
+}
+.indext4{
+	position: absolute;
+	font-size: 1em;
+	color: white;
+	left: 60%;
+	top: 135%;
+}
+#linksgames{
+	display: grid;
+	position: absolute;
+	top: 30%;
+	left: 23%;
+	grid-row-gap: 20px; 
+}
+#linksgames img{
+	width: 150px;
 	height: 200px;
-	position: absolute;
-	margin-left: 22%;
-	margin-top: 30%;
 }
-.console2{
-	font-size: 16px;
-	color: white;
-	margin-left: 40%;
-	margin-top: 25%;
-	position: absolute;
-}
-#console3{
-	width: 280px;
-	height: 230px;
-	position: absolute;
-	margin-left: 24%;
-	margin-top: 45%;
-}
-.console3{
+#linkstext{
+	display: grid;
 	font-size: 16px;
 	color: white;
 	position: absolute;
-	margin-left: 40%;
-	margin-top: 40%;
+	top: 30%;
+	left: 40%;
+	grid-row-gap: 170px;
+}
+#allgames{
+	display: grid;
+	position: absolute;
+	top: 30%;
+	left: 23%;
+	grid-row-gap: 20px; 
+}
+#allgames img{
+	width: 150px;
+	height: 200px;
+}
+.allconsoles{
+	display: grid;
+	font-size: 16px;
+	color: white;
+	position: absolute;
+	top: 30%;
+	left: 40%;
+	grid-row-gap: 120px;
+}
+#allconsoles{
+	display: grid;
+	position: absolute;
+	top: 30%;
+	left: 23%;
+	grid-row-gap: 120px; 
+}
+#allconsoles img{
+	Width: 200px;
+	height: 100px;
 }
 #controllers{
 	display: grid;
@@ -172,11 +131,11 @@ body{
 	position: absolute;
 	top: 30%;
 	left: 40%;
-	grid-row-gap: 220px;
+	grid-row-gap: 120px;
 }
 #controllers img{
-	width: 300px;
-	height: 200px;
+	width: 200px;
+	height: 100px;
 }
 .game-text{
 	display: grid;
@@ -184,8 +143,8 @@ body{
 	color: white;
 	position: absolute;
 	top: 35%;
-	left: 35%;
-	grid-row-gap: 200px;
+	left: 39%;
+	grid-row-gap: 100px;
 }
 .contact-text{
 	color: white;
@@ -207,15 +166,16 @@ footer{
 footer img{
 	width: 100px;
 	height: 100px;
-	margin-left: 40px;
+	left: 40px;
+	padding: 15px;
 }
 #Navigation{
 	background-color: #00ff00;
+	position: absolute;
 	text-align: center;
-	width: 45%;
+	width: 70%;
 	height: 50px;
-	margin-left: auto;
-	margin-right: auto;
+	left: 20%;
 }
 #Navigation a{
 	color: white;
@@ -230,20 +190,20 @@ footer img{
 	height: 50px;
 	width: 100px;
 	position: absolute;
-	margin-left: 65%;
-	margin-top: 15%;
+	left: 85%;
+	top: 35%;
 }
 #button2{
 	height: 50px;
 	width: 100px;
 	position: absolute;
-	margin-left: 65%;
-	margin-top: 30%;
+	left: 85%;
+	top: 55%;
 }
 #button3{
 	height: 50px;
 	width: 100px;
 	position: absolute;
-	margin-left: 65%;
-	margin-top: 45%;
+	left: 85%;
+	top: 80%;
 }
